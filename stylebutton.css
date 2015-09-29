@@ -1,0 +1,105 @@
+
+body {
+  line-height: 1;
+}
+
+/* Parametros de Body */
+body {
+  font: 13px/20px;
+  font-family: inherit;
+  color: #404040;
+  background: #373939;
+}
+
+/* Parametros del contenedor */
+
+.container {
+  margin: 80px auto;
+  width: 460px;
+  text-align: center;
+}
+
+
+/* Parametros de boton */
+.boton{
+
+display: inline-block;
+padding: 5px 10px 6px;
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+line-height: 1;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 1px 3px #999;
+-webkit-box-shadow: 0 1px 3px #999;
+text-shadow: 0 -1px 1px #222;
+border-bottom: 1px solid #222;
+position: relative;
+cursor: pointer;
+}
+
+
+
+
+
+/* Mozilla Estilo RGBA COLOR --*/
+
+.boton {
+...
+-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+border-bottom: 1px solid rgba(0,0,0,0.25);
+...
+}
+
+
+
+/* Tamaños y Colores---------- */
+.pequeno.boton {
+font-size: 11px;
+}
+.medio.boton {
+font-size: 13px;
+}
+.largo.boton {
+font-size: 14px;
+padding: 8px 14px 9px;
+}
+ 
+/* Colors ---------- */
+.blue.boton {
+background-color: #2daebf;
+}
+.red.boton {
+background-color: #e33100;
+}
+.magenta.boton {
+background-color: #a9014b;
+}
+.orange.boton {
+background-color: #ff5c00;
+}
+.yellow.boton {
+background-color: #ffb515;
+}
+
+
+
+.boton,.boton:visited{background:#222 url(alert-overlay.png) repeat-x;display:inline-block;padding:5px 10px 6px;color:#fff;
+text-decoration:none;-moz-border-radius:5px;
+-webkit-border-radius:5px;-moz-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+-webkit-box-shadow:0 1px 3px rgba(0,0,0,0.5);
+text-shadow:0 -1px 1px rgba(0,0,0,0.25);
+border-bottom:1px solid rgba(0,0,0,0.25);
+position:relative;cursor:pointer;}
+
+.boton:hover{background-color:#111;color:#fff;}
+.boton:active{top:1px;}.pequeno.boton,.pequeno.boton:visited{font-size:11px;padding:;}
+.boton,.boton:visited,.medio.boton,.medio.boton:visited{font-size:13px;font-weight:bold;line-height:1;text-shadow:0 -1px 1px rgba(0,0,0,0.25);}
+.largo.boton,.largo.boton:visited{font-size:14px;padding:8px 14px 9px;}
+
+
+.red.boton,.red.boton:visited{background-color:#e33100;}
+.red.boton:hover{background-color:#872300;}
